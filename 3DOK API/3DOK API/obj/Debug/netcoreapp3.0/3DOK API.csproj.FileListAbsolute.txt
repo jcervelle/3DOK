@@ -1,0 +1,61 @@
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\appsettings.json
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\3DOK API.exe
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\3DOK API.deps.json
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\3DOK API.runtimeconfig.json
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\3DOK API.runtimeconfig.dev.json
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\3DOK API.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\3DOK API.pdb
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Google.Protobuf.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\K4os.Compression.LZ4.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\K4os.Compression.LZ4.Streams.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\K4os.Hash.xxHash.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\MySql.Data.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Ubiety.Dns.Core.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Zstandard.Net.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\MySql.Data.EntityFrameworkCore.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\Renci.SshNet.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\SshNet.Security.Cryptography.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\System.Drawing.Common.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\dev\3DOK\3DOK API\3DOK API\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.csprojAssemblyReference.cache
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.csproj.CoreCompileInputs.cache
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.MvcApplicationPartsAssemblyInfo.cache
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.AssemblyInfoInputs.cache
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.AssemblyInfo.cs
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.RazorTargetAssemblyInfo.cache
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.csproj.CopyComplete
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\staticwebassets\3DOK API.StaticWebAssets.Manifest.cache
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\staticwebassets\3DOK API.StaticWebAssets.xml
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.dll
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.pdb
+D:\dev\3DOK\3DOK API\3DOK API\obj\Debug\netcoreapp3.0\3DOK API.genruntimeconfig.cache
