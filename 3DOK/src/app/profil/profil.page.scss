@@ -1,0 +1,14 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+.container {
+  margin: 50px 10% 0;
+  display: flex;
+  justify-content: center;
+
+  .player-name{
+    font-weight: bold;
+    font-size: larger;
+  }
+}
