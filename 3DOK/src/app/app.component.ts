@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
 import { Plugins } from '@capacitor/core';
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { MenuController } from '@ionic/angular';
 const { SplashScreen } = Plugins;
 
 @Component({
@@ -8,7 +13,11 @@ const { SplashScreen } = Plugins;
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
-  constructor() {
+  constructor(
+    library: FaIconLibrary, 
+    public menuController: MenuController
+    ) { 
+		library.addIconPacks(fas, fab, far);
     this.initializeApp();
   }
 
@@ -20,5 +29,10 @@ export class AppComponent {
         https://capacitor.ionicframework.com/docs/apis/splash-screen#hiding-the-splash-screen
     */
     SplashScreen.hide();
+  }
+
+  public openMenu(name: string):void{
+    console.log(name)
+    this.menuController.open(name);
   }
 }

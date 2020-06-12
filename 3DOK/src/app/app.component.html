@@ -1,12 +1,29 @@
 <ion-app>
+
   <ion-header>
     <ion-toolbar>
-      <i class="fas fa-bars"></i>
-      <ion-title>
-        3DOK
-      </ion-title>
+      <div class="groupDuoItems clickable" (click)="openMenu('main')">
+        <fa-icon icon="bars" size="lg"></fa-icon>
+
+        <ion-title>
+          3DOK
+        </ion-title>
+      </div>
     </ion-toolbar>
   </ion-header>
+  <ion-menu side="start" menuId="main" contentId="main">
+    <ion-content id="main">
+      <div class="flex-center menuTitle">
+        3DOK
+      </div>
+      <hr>
+      <div class="flex-center">
+      <ion-button [routerLink]="'login'">
+        <fa-icon icon="sign-in-alt" size="2x"></fa-icon>
+      </ion-button>
+    </div>
+    </ion-content>
+  </ion-menu>
 
-  <ion-router-outlet></ion-router-outlet>
+    <ion-router-outlet class="main-content"></ion-router-outlet>
 </ion-app>
