@@ -11,8 +11,8 @@ export class ClassementPage {
     {position: 1, name: 'Tamzin Mcmanus', score: 4900},
     {position: 2, name: 'Philippe Ejtebest', score: 4800},
     {position: 3, name: 'Lillie-Mai Peacock', score: 4600},
-    {position: 4, name: 'Ellie Wolf', score: 4200},
-    {position: 5, name: 'Haidar David', score: 3700},
+    {position: 4, name: 'Pedro Patrick', score: 4500},
+    {position: 5, name: 'Haidar David', score: 4200},
     {position: 6, name: 'Isabelle Whitley', score: 3700},
     {position: 7, name: 'Teddy Blen', score: 3600},
     {position: 8, name: 'Azra Morrow', score: 3500},
@@ -27,5 +27,7 @@ export class ClassementPage {
     {position: 17, name: 'Iqrah Watt', score: 800},
   ];
   columnsToDisplay=['position', 'name', 'score'];
+
   constructor() {}
+
 }

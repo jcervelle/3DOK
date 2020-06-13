@@ -3,9 +3,7 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { AvatarModule } from 'ngx-avatar';
-import { ProfilPage } from './profil.page';
+import { AccueilPage } from './accueil.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
@@ -17,11 +15,12 @@ import {MatIconModule} from '@angular/material/icon';
     MatButtonModule,
     CommonModule,
     FormsModule,
-    HttpClientModule,
-    AvatarModule,
     ExploreContainerComponentModule,
-    RouterModule.forChild([{ path: '', component: ProfilPage }])
+    RouterModule.forChild([{path: '', component: AccueilPage}]),
+    MatIconModule
   ],
-  declarations: [ProfilPage]
+  declarations: [AccueilPage]
 })
-export class ProfilPageModule {}
+export class AccueilPageModule {}
+
+

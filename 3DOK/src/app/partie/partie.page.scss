@@ -1,0 +1,91 @@
+ion-content ion-toolbar {
+    --background: translucent;
+  }
+  
+  section {
+    display: table;
+    margin: 8px;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+  }
+  
+  .example-button-row button {
+    display: table-cell;
+    margin-right: 8px;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+
+
+  .container {
+    position:fixed;
+    top: 40%;
+    margin-left: 12%;
+    width : 30%;
+  }
+
+  .container2 {
+    position:fixed;
+    top: 40%;
+    margin-left : 58%;
+    width: 30%;
+  }
+
+  .container3 {
+    position:fixed;
+    top: 65%;
+    margin-left: 12%;
+    width : 30%;
+  }
+
+  .container4 {
+    position:fixed;
+    top: 65%;
+    margin-left : 58%;
+    width: 30%;
+  }
+
+  .container-front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+  }
+  .player-name{
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .player-score{
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  .content{
+    padding: 20px;
+  }
+
+  .picture{
+    padding: 30px 0;
+  }
+  

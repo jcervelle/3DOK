@@ -5,8 +5,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ClassementPage } from './classement.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
-import {MatListModule} from "@angular/material/list";
-import {MatTableModule} from "@angular/material/table";
+import {MatListModule} from '@angular/material/list';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
     imports: [

@@ -7,14 +7,14 @@
 <!--</ion-header>-->
 
 <ion-content>
-    <table mat-table [dataSource]="joueurs" class="ranking-table">
+    <table mat-table [dataSource]="joueurs" class="table">
         <ng-container matColumnDef="position">
             <th mat-header-cell *matHeaderCellDef> Position </th>
             <td mat-cell *matCellDef="let joueur"> {{joueur.position}} </td>
         </ng-container>
         <ng-container matColumnDef="name">
             <th mat-header-cell *matHeaderCellDef> Nom </th>
-            <td mat-cell *matCellDef="let joueur"> {{joueur.name}} </td>
+            <td mat-cell *matCellDef="let joueur"> {{joueur.name == "Pedro Patrick" ? "VOUS" : joueur.name }} </td>
         </ng-container>
         <ng-container matColumnDef="score">
             <th mat-header-cell *matHeaderCellDef> Score </th>
