@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { LoginPageModule } from './pages/login/login.module';
 import { RegisterPageModule } from './pages/register/register.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,6 +22,7 @@ import { RegisterPageModule } from './pages/register/register.module';
     FontAwesomeModule,
     LoginPageModule,
     RegisterPageModule,
+    BrowserAnimationsModule,
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent]
