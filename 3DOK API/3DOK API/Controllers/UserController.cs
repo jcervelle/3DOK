@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using _3DOK_API.Model;
 using _3DOK_API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -20,6 +21,26 @@ namespace _3DOK_API.Controllers
         {
             _logger = logger;
             _userService = userService;
+        }
+
+        [AllowAnonymous]
+        [HttpPost("signin")]
+        public IActionResult Authenticate([FromBody]User model)
+        {
+            var user = _userService.Authenticate(model.Email, model.Password);
+
+            if (user == null)
+                return BadRequest(new { message = "Username or password is incorrect" });
+
+            return Ok(user);
+        }
+
+        [HttpPost]
+        [Route("signup")]
+        public IActionResult CreateUser([FromBody]User user)
+        {
+            var utilisateur = _userService.CreateUser(user);
+            return Ok();
         }
 
         [HttpGet]
