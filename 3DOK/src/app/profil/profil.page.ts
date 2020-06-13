@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-profil',
   templateUrl: 'profil.page.html',
   styleUrls: ['profil.page.scss']
 })
-export class ProfilPage {
+export class ProfilPage   {
 
   constructor() {}
+
 
 }
