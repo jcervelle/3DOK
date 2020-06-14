@@ -1,0 +1,35 @@
+.groupDuoItems{
+  display: flex;
+  align-items: baseline;
+  margin-left: 15px;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuTitle{
+  margin: 15px 0px;
+  font-size: 20px;
+}
+
+hr{
+  border: 1px solid lightgray;
+  height: 0px;
+}
+
+.main-content{
+  margin-top: 57px;
+}
+
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}

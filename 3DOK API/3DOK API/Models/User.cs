@@ -26,5 +26,7 @@ namespace _3DOK_API.Model
         public virtual List<Game> PlayedGamesAsPlayerOne { get; set; }
         public virtual List<Game> PlayedGamesAsPlayerTwo { get; set; }
         public virtual List<GameTable> OwnedTables { get; set; }
+        [NotMapped]
+        public string Token { get; set; }
     }
 }
