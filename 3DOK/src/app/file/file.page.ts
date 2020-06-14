@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {AfterContentChecked, Component} from '@angular/core';
 import {Router} from '@angular/router';
 
 @Component({
@@ -6,13 +6,13 @@ import {Router} from '@angular/router';
   templateUrl: 'file.page.html',
   styleUrls: ['file.page.scss']
 })
-export class FilePage implements OnInit{
+export class FilePage implements AfterContentChecked{
 
   constructor(
       private router: Router
   ) {}
 
-  ngOnInit(): void {
+  ngAfterContentChecked(): void {
     setTimeout(() => {
       this.router.navigate(['./tabs/partie']);
     }, 5000);
