@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ClassementPage {
 
-  joueurs = [
+  classementGeneral = [
     {position: 1, name: 'Tamzin Mcmanus', score: 4900},
     {position: 2, name: 'Philippe Ejtebest', score: 4800},
     {position: 3, name: 'Lillie-Mai Peacock', score: 4600},
@@ -26,8 +26,30 @@ export class ClassementPage {
     {position: 16, name: 'Patrick Benton', score: 1300},
     {position: 17, name: 'Iqrah Watt', score: 800},
   ];
+
+  classementEntreprise = [
+    {position: 1, name: 'Tamzin Mcmanus', score: 4900},
+    {position: 2, name: 'Philippe Ejtebest', score: 4800},
+    {position: 3, name: 'Teddy Blen', score: 3600},
+    {position: 4, name: 'Azra Morrow', score: 3500},
+    {position: 5, name: 'Karolina Howell', score: 3500},
+    {position: 6, name: 'Farhaan Lott', score: 1700},
+    {position: 7, name: 'Patrick Benton', score: 1300},
+  ];
+  classementAmis = [
+    {position: 1, name: 'Philippe Ejtebest', score: 4800},
+    {position: 2, name: 'Isabelle Whitley', score: 3700},
+    {position: 3, name: 'Teddy Blen', score: 3600},
+    {position: 4, name: 'Karolina Howell', score: 3500},
+    {position: 5, name: 'Iqrah Watt', score: 800},
+  ];
   columnsToDisplay=['position', 'name', 'score'];
+
+  varSelector = 0;
 
   constructor() {}
 
+  setVar(varS){
+    this.varSelector = varS;
+  }
 }

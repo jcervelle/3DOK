@@ -7,6 +7,10 @@ import { ClassementPage } from './classement.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 import {MatListModule} from '@angular/material/list';
 import {MatTableModule} from '@angular/material/table';
+import {MatMenuModule} from "@angular/material/menu";
+import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
+import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 
 @NgModule({
     imports: [
@@ -16,7 +20,11 @@ import {MatTableModule} from '@angular/material/table';
         ExploreContainerComponentModule,
         RouterModule.forChild([{path: '', component: ClassementPage}]),
         MatListModule,
-        MatTableModule
+        MatTableModule,
+        MatMenuModule,
+        MatButtonModule,
+        MatIconModule,
+        FontAwesomeModule
     ],
   declarations: [ClassementPage]
 })
