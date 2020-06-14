@@ -24,6 +24,7 @@ namespace _3DOK_API.Controllers
         }
 
         [AllowAnonymous]
+        [HttpPost]
         [HttpPost("signin")]
         public IActionResult Authenticate([FromBody]User model)
         {
@@ -35,6 +36,20 @@ namespace _3DOK_API.Controllers
             return Ok(user);
         }
 
+        //[AllowAnonymous]
+        //[HttpPost]
+        //[HttpPost("signin")]
+        //public IActionResult Logout()
+        //{
+        //    var user = _userService.(model.Email, model.Password);
+
+        //    if (user == null)
+        //        return BadRequest(new { message = "Username or password is incorrect" });
+
+        //    return Ok(user);
+        //}
+
+        [AllowAnonymous]
         [HttpPost]
         [Route("signup")]
         public IActionResult CreateUser([FromBody]User user)
@@ -57,6 +72,7 @@ namespace _3DOK_API.Controllers
             return _userService.GetUser(id);
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public User Post(User user)
         {

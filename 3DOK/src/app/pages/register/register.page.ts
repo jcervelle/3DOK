@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { User } from 'src/app/models/user';
+import { UtilisateurService } from 'src/app/services/utilisateur.service';
 
 @Component({
   selector: 'app-register',
@@ -10,10 +11,11 @@ export class RegisterPage {
 
   public user: User = new User();
 
-  constructor() {}
+  constructor(
+  ) {}
 
 
   public submit(): void{
-    console.log(this.user)
+    
   }
 }
