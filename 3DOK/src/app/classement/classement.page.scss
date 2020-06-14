@@ -6,10 +6,17 @@ ion-content ion-toolbar {
   width: 100%;
 }
 
-.policy{
-  font-family: Roboto, sans-serif;
+
+.margin-left-5px{
+  margin-left: 5px;
 }
 
-.selectedTable{
+.selector{
+  font-size: 18px;
+  margin-top: 6px;
+}
 
+.flex-center{
+  display: flex;
+  justify-content: center;
 }
