@@ -13,10 +13,11 @@
         <button mat-menu-item (click)="setVar(2)">Amis</button>
     </mat-menu>
 
-    <button mat-icon-button  [matMenuTriggerFor]="appMenu">
-        <mat-icon class="policy"> {{varSelector == 0 ? "Général" : varSelector == 1 ? "Entreprise" : "Amis"}} </mat-icon>
-    </button>
-    <fa-icon icon="sort-down"></fa-icon>
+    <div>
+        <button class="selector" mat-button [matMenuTriggerFor]="appMenu"> {{varSelector == 0 ? "Général" : varSelector == 1 ? "Entreprise" : "Amis"}}
+            <fa-icon class="margin-left-5px" icon="chevron-down"></fa-icon>
+        </button>
+    </div>
 
     <table *ngIf="varSelector == 0" mat-table [dataSource]="classementGeneral" class="table">
         <ng-container matColumnDef="position">
