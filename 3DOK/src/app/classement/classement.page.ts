@@ -52,4 +52,15 @@ export class ClassementPage {
   setVar(varS){
     this.varSelector = varS;
   }
+
+  getDataSource(){
+    switch(this.varSelector){
+      case 0:
+        return this.classementGeneral;
+      case 1:
+        return this.classementEntreprise;
+      case 2:
+        return this.classementAmis;
+    }
+  }
 }
