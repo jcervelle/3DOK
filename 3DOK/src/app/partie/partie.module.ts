@@ -3,17 +3,22 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Tab1Page } from './tab1.page';
+import { PartiePage } from './partie.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+import {MatButtonModule} from '@angular/material/button'; 
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'; 
+
 
 @NgModule({
   imports: [
     IonicModule,
+    MatButtonModule,
+    MatProgressSpinnerModule,
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    RouterModule.forChild([{ path: '', component: Tab1Page }])
+    RouterModule.forChild([{ path: '', component: PartiePage }])
   ],
-  declarations: [Tab1Page]
+  declarations: [PartiePage]
 })
-export class Tab1PageModule {}
+export class PartiePageModule {}
